@@ -11,4 +11,4 @@ if block_given?
     puts "This block should not run!"
   end
   selected
-end	end
+end
