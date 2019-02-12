@@ -8,7 +8,7 @@ def my_select(collection)
       i += 1
     end
   else
-    puts "No block given"
+    puts "This block should not run!"
   end
   selected
-end	end
+end	
