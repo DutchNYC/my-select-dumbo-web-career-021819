@@ -11,4 +11,4 @@ def my_select(collection)
     puts "This block should not run!"
   end
   selected
-end	
+end
