@@ -5,7 +5,7 @@ if block_given?
     selected = []
     while i < collection.length
       if yield(collection[i]) == true
-        selected << (collection[i])
+        selected << collection[i]
       i += 1
     end
   else
