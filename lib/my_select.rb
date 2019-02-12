@@ -4,8 +4,7 @@ if block_given?
     i = 0
     selected = []
     while i < collection.length
-      if yield(collection[i]) == true
-        selected << collection[i]
+      selected.push(collection[i]) if yield(collection[i]) == true
       i += 1
     end
   else
